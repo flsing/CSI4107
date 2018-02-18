@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/analysis/common/lucene-analyzers-common-6.5.1.jar" sourcepath="/Users/FLSingerman/tools/lucene-6.5.1-src/lucene-6.4.2/analysis/common/src/java"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/core/lucene-core-6.5.1.jar" sourcepath="/ude-fuzzy/c:/tools/lucene-6.4.2-src/lucene-6.4.2/core/src/java"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/suggest/lucene-suggest-6.5.1.jar" sourcepath="/Users/FLSingerman/tools/lucene-6.5.1-src/lucene-6.4.2/suggest/src/java"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/queryparser/lucene-queryparser-6.5.1.jar" sourcepath="/Users/FLSingerman/tools/lucene-6.5.1-src/lucene-6.4.2/queryparser/src/java"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/spatial/lucene-spatial-6.5.1.jar" sourcepath="/Users/FLSingerman/tools/lucene-6.5.1-src/lucene-6.4.2/spatial/src/java"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/analysis/icu/lucene-analyzers-icu-6.5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/wink-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/com.ibm.icu_3.4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/commons-lang-2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/jsoup-1.11.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
