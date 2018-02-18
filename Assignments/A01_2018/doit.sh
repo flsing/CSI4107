@@ -1,5 +1,5 @@
 #!/bin/bash
-tweet_fuzzy=/Users/FLSingerman/Documents/Ottawa_U/Year_4_2017_18/Winter/Information_retrieval/Assignments/A01_2018/
+tweet_fuzzy=/Users/FLSingerman/Documents/Ottawa_U/Year_4_2017_18/Winter/Information_retrieval/Assignments/A01_2018
 now=$(date  "+%Y%m%d-%H%M")
 day=$(date +"%a-%b-%d")
 
@@ -7,10 +7,10 @@ day=$(date +"%a-%b-%d")
 echo "------------------------- Starting tweet_fuzzy ----------------------------"
 
 echo "=================== Indexing data ==================="
-java -cp tweetFuzzy.jar Indexer --config ufm.config
+java -cp tweetFuzzy.jar com.ir.project.Indexer --config ufm.config
 
 echo "=================== Running IR on data ==================="
-java -cp tweetFuzzy.jar WorkFlow --test-name $day --config ufm.config 
+java -cp tweetFuzzy.jar com.ir.project.WorkFlow --test-name $day --config ufm.config 
 
 echo "=================== Running Evaluation Scripts ==================="
 
