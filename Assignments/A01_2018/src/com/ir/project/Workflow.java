@@ -27,7 +27,7 @@ public class Workflow {
 		{
 			e.printStackTrace( System.out);
 			m_tweetSearch = null;
-			runName = "Default run";
+			runName = "Defaultrun";
 		}
 	}
 

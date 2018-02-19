@@ -12,5 +12,7 @@
 	<classpathentry kind="lib" path="/Users/FLSingerman/tools/com.ibm.icu_3.4.4.1.jar"/>
 	<classpathentry kind="lib" path="/Users/FLSingerman/tools/commons-lang-2.6/commons-lang-2.6.jar"/>
 	<classpathentry kind="lib" path="/Users/FLSingerman/tools/jsoup-1.11.2.jar"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/Java/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/FLSingerman/tools/lucene-6.5.1/analysis/icu/lib/icu4j-56.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
