@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 
+
 import org.apache.wink.json4j.JSONArray;
 import org.apache.wink.json4j.JSONObject;
 
@@ -56,8 +57,10 @@ public class Workflow {
 			String title = doc.body().getElementsByTag("title").text();
 			String num = doc.body().getElementsByTag("num").text();
 			if(num.contains("MB")){
-				int index = num.indexOf("MB");
-				num = num.substring(index);
+				num = num.substring(11);
+				if(num.startsWith("0")){
+					num = num.substring(1);
+				}
 			}
 			
 			JSONObject results = m_tweetSearch.search_for_tweet(title);
@@ -74,10 +77,13 @@ public class Workflow {
 				nf.flush();
 			}
 		}
+
 		reader.close();
 		writer.close();
-		nf.close();	
+		nf.close();
+		
 	}
+	
 
 	
 	public static void main(String[] args) throws Exception 

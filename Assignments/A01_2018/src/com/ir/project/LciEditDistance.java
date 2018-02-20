@@ -602,37 +602,6 @@ public class LciEditDistance implements StringDistance
 	
     	LciEditDistance ruler = new LciEditDistance();
 	
-	if( false) {
-	    String 	str1 = "this that";
-	    String str2 = "this that";
-
-	    String[] str1_list = str1.split(" ");
-	    String[] str2_list = str2.split(" ");
-	    
-	    DistanceResult res = ruler.getEditDistance( str1, str2);
-	    EditCost path[] = res.getPath();
-	    System.out.printf("backtrace from END cost %f\n", res.distance);
-	    for(int k=0; k<path.length; k++) {
-		System.out.printf( "%s\n", path[k].toString1() );
-	    }
-	}
-	
-	if( false) {
-	    String str1, str2;
-	    str1 = "this that"; //  
-	    str2 = "thisand that"; //  
-	    // str1 = "e";
-	    // str2 = "e s";
-	    System.out.printf("comparing <%s> <%s>\n", str1, str2);
-
-	    
-	    DistanceResult res = ruler.getEditDistance( str1, str2);
-	    EditCost path[] = res.getPath();
-	    System.out.printf("backtrace from END cost %f\n", res.distance);
-	    for(int k=0; k<path.length; k++) {
-				System.out.printf( "%s\n", path[k].toString1() );
-			  }
-    }
 	// ruler.test("mister been","mr been", ruler.m_csynCostDefault, System.out);
 
 	int nFailed = ruler.testmany(  System.out);
